@@ -1,0 +1,212 @@
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1368px;
+    background: url('bg.jpg') no-repeat center/cover;
+    padding-top: 50px;
+    position: relative;
+}
+
+.scroll {
+    position: fixed;
+}
+
+.fix {
+    z-index: 99;
+    position: fixed;
+    flex: content;
+    text-align: center;
+    margin-top: 25%;
+    padding: 5px 20px;
+    justify-self: center;
+    border-radius: 1.8rem;
+}
+
+.header h4 {
+    margin-bottom: 20px;
+}
+
+.fix ul li {
+    margin-right: 25px;
+    display: block;
+}
+
+.fix i {
+    font-size: larger;
+}
+
+.header ul {
+    margin-top: 45%;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: rgb(103, 139, 238);
+}
+
+.scrol {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.scrol i {
+    font-size: larger;
+    background-color: aliceblue;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+
+.header h6 {
+    color: rgb(51, 70, 120);
+}
+
+.header {
+    text-align: center;
+    color: white;
+}
+
+.header .col-sm-6 img {
+    border-radius: 1rem;
+    width: 52%;
+    height: 59%;
+}
+
+.about .col-sm-3 img {
+    border-radius: 2rem;
+    width: 120%;
+    height: 80%;
+    transform: rotate(-10deg);
+}
+
+.about .col-sm-3 img:hover {
+    transform: rotate(0deg);
+    transition: 2s;
+}
+
+nav ul li a .about .col-sm-3 {
+    background-color: aliceblue;
+}
+
+h5 {
+    text-align: center;
+    color: rgb(51, 70, 120);
+}
+
+h4 {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.about {
+    padding: 40px 0px;
+    text-align: center;
+    color: rgb(222, 228, 223);
+}
+
+h6 {
+    color: rgb(51, 70, 120);
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    padding-bottom: 40px;
+}
+
+.design:hover {
+    border: 1px solid black;
+}
+
+.header .col-sm-3 {
+    text-align: right;
+}
+
+.header .col-sm-3 ul {
+    margin-top: 70%;
+}
+
+.btn {
+    background-color: rgb(10, 18, 92);
+    color: white;
+    padding: 20px 30px;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.col-sm-6 article {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(10, 64, 74, 0.8);
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+article i {
+    color: white;
+}
+
+.experience {
+    color: white;
+}
+
+.experience ul li {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.design {
+    padding: 20px 20px;
+    border-radius: 25px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(2, 9, 49, 0.7));
+}
+
+.experience h5 {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.contact {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.experience i {
+    color: rgb(24, 53, 169);
+    margin-right: 5px;
+}
+
+.bottom {
+    margin-top: 70px;
+    text-align: center;
+    background-color: rgba(10, 64, 74, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+    .scrol {
+        display: none;
+    }
+    .fix {
+        display: none;
+    }
+    .icon {
+        display: none;
+    }
+    .about .col-sm-3 img {
+        cursor: pointer;
+        border-radius: 2rem;
+        width: 95%;
+        height: 80%;
+        transform: rotate(-10deg);
+    }
+}
